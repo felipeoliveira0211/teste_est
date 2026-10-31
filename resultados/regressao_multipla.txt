@@ -1,0 +1,27 @@
+                                   OLS Regression Results
+============================================================================================
+Dep. Variable:     intervalo_empenho_pagamento_dias   R-squared:                       0.359
+Model:                                          OLS   Adj. R-squared:                  0.359
+Method:                               Least Squares   F-statistic:                     4883.
+Date:                              Sat, 31 Oct 2026   Prob (F-statistic):               0.00
+Time:                                      15:15:58   Log-Likelihood:            -1.5009e+05
+No. Observations:                             26125   AIC:                         3.002e+05
+Df Residuals:                                 26121   BIC:                         3.002e+05
+Df Model:                                         3
+Covariance Type:                          nonrobust
+=======================================================================================================
+                                          coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------
+empenho_estimativo                     88.1065      1.647     53.510      0.000      84.879      91.334
+categoria_processo                     66.0226      1.058     62.407      0.000      63.949      68.096
+assistencia_hospitalar_ambulatorial    47.6106      1.408     33.823      0.000      44.852      50.370
+constante                              26.9944      0.647     41.728      0.000      25.726      28.262
+==============================================================================
+Omnibus:                     6432.419   Durbin-Watson:                   0.631
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            15868.252
+Skew:                           1.359   Prob(JB):                         0.00
+Kurtosis:                       5.681   Cond. No.                         4.63
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

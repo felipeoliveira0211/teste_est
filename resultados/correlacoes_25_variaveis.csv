@@ -1,0 +1,26 @@
+﻿Variável,Correlação com o alvo,Atinge o limite
+Valor orçado da despesa R$,0.39667485398914676,Sim
+Valor alterado da despesa R$,0.0592446749878948,Não
+Valor atualizado da despesa R$,0.40704865978822524,Sim
+Empenhado atualizado da despesa R$,0.3424331376474547,Sim
+Liquidado atualizado da despesa R$,0.3271296947549849,Sim
+Saldo a liquidar da despesa R$,0.42169887130383465,Sim
+Anulações do pagamento da despesa R$,-0.04877829708326663,Não
+Valor pago atualizado da despesa R$,0.3256816558427271,Sim
+Saldo a pagar da despesa - empenhado R$,0.4133653238495381,Sim
+Saldo a pagar da despesa - liquidado R$,0.339551343717802,Sim
+% Empenhado sobre orçado,0.04946119477067445,Não
+% Empenhado sobre orçado atualizado,0.022834079808359338,Não
+% Liquidado sobre orçado,-0.007538947167273221,Não
+% Liquidado sobre orçado atualizado,-0.16258769671919318,Não
+% Pago sobre orçado,-0.00818564619235434,Não
+% Pago sobre orçado atualizado,0.012362593321322075,Não
+empenho_estimativo,0.37950270011430887,Sim
+categoria_processo,0.44639760128673855,Sim
+categoria_diaria,-0.4191610844615618,Sim
+categoria_folha,-0.3105042758203548,Sim
+atencao_basica,-0.3749709013414679,Sim
+assistencia_hospitalar_ambulatorial,0.46397873287329255,Sim
+servicos_medicos_odontologicos_laboratoriais,0.47613074486630663,Sim
+Valor do empenho,0.15990799082779752,Não
+Valor do pagamento R$,0.026626897069418887,Não

@@ -1,0 +1,25 @@
+                                   OLS Regression Results
+============================================================================================
+Dep. Variable:     intervalo_empenho_pagamento_dias   R-squared:                       0.144
+Model:                                          OLS   Adj. R-squared:                  0.144
+Method:                               Least Squares   F-statistic:                     4395.
+Date:                              Sat, 31 Oct 2026   Prob (F-statistic):               0.00
+Time:                                      15:15:57   Log-Likelihood:            -1.5388e+05
+No. Observations:                             26125   AIC:                         3.078e+05
+Df Residuals:                                 26123   BIC:                         3.078e+05
+Df Model:                                         1
+Covariance Type:                          nonrobust
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+empenho_estimativo   115.3983      1.741     66.297      0.000     111.987     118.810
+constante             63.3336      0.573    110.532      0.000      62.210      64.457
+==============================================================================
+Omnibus:                     6123.497   Durbin-Watson:                   0.534
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            11900.158
+Skew:                           1.446   Prob(JB):                         0.00
+Kurtosis:                       4.601   Cond. No.                         3.26
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
