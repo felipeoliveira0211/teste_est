@@ -1,6 +1,6 @@
 # Arquivos de entrada
 
-Extraia `DADOS_PMC.zip`. Copie os arquivos abaixo para esta pasta e renomeie somente os arquivos, mantendo seus conteúdos originais.
+Esta pasta contém os seis CSVs originais usados na unificação, extraídos de `DADOS_PMC.zip`. Somente os nomes dos arquivos foram simplificados; os conteúdos foram preservados integralmente, incluindo as tabelas internas.
 
 | Arquivo no ZIP fornecido | Nome usado no notebook |
 |---|---|
@@ -15,4 +15,6 @@ Não é necessário utilizar os arquivos de cargos, contratos ou o orçamento de
 
 Não abra e salve os CSVs no Excel antes da leitura: isso pode modificar datas e códigos. O notebook lê diretamente os relatórios originais, incluindo suas tabelas internas.
 
-A pasta é ignorada pelo Git para não versionar os CSVs brutos. O arquivo final já está disponível na raiz do repositório.
+Os arquivos estão versionados no Git e podem ser usados diretamente pelo notebook após baixar ou clonar o projeto. O arquivo final `Base_unificada_Saude.csv` permanece na raiz do repositório.
+
+O arquivo `.gitattributes` desativa a conversão de quebras de linha nestes CSVs para preservar os bytes dos originais.

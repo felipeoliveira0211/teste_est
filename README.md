@@ -8,7 +8,7 @@ Projeto de preparação de dados para a aula de Estatística. Período dos pagam
 
 - [Unificacao_Saude.ipynb](Unificacao_Saude.ipynb): notebook executado, com as etapas explicadas.
 - [Base_unificada_Saude.csv](Base_unificada_Saude.csv): resultado da unificação, com 26.125 registros e 40 colunas, incluindo o intervalo calculado.
-- [dados/README.md](dados/README.md): organização dos seis arquivos de entrada.
+- [dados/](dados/): os seis CSVs originais utilizados, com nomes simplificados e conteúdos preservados. A [documentação das entradas](dados/README.md) mostra a correspondência com os nomes do ZIP fornecido.
 
 O notebook usa somente `pandas`. A organização e a união usam listas, `for`, `if`, comparações e acesso às colunas do DataFrame, seguindo o nível dos exercícios enviados. Não utiliza `merge`, `concat`, funções próprias ou outras bibliotecas.
 
@@ -16,7 +16,7 @@ Para o cálculo de datas autorizado, foram acrescentados `pd.to_datetime` e `.dt
 
 ## Executar
 
-1. Coloque os seis CSVs originais na pasta `dados`, com os nomes indicados na documentação dessa pasta.
+1. Baixe ou clone este repositório completo. Os seis CSVs originais já estão na pasta `dados`.
 2. Abra o notebook no ambiente usado nas aulas, com `pandas` disponível.
 3. Execute as células na ordem, usando a pasta deste projeto como diretório de trabalho.
 4. Ao final, o DataFrame `base_unificada` conterá os pagamentos e o intervalo em dias.
@@ -53,4 +53,4 @@ Este trabalho está limitado à unificação e ao cálculo do intervalo. A trans
 
 Arquivos municipais fornecidos em `DADOS_PMC.zip`, obtidos no [portal de dados abertos de Criciúma](https://transparencia.betha.cloud/#/n4W91vnHptoBkiHKAxioOA==/dados-abertos?esconderCabecalho=S&esconderMenu=S&esconderRodape=S).
 
-Os arquivos brutos não foram incluídos no Git. A base unificada contém as informações necessárias à próxima etapa, sem os nomes e documentos dos credores ou as contas bancárias dos pagamentos.
+Os seis arquivos brutos utilizados estão incluídos no Git, na pasta `dados`, e a base unificada está na raiz. Os relatórios originais preservam os campos publicados pela prefeitura. A base unificada contém as informações necessárias à próxima etapa, sem os nomes e documentos dos credores ou as contas bancárias dos pagamentos.
